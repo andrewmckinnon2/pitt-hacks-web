@@ -1,0 +1,331 @@
+body{
+  margin: 0;
+  background-color: #F4F4F8;
+}
+
+#Main{
+  display: flex;
+  flex-direction: column;
+}
+
+#MainLogo{
+  width:200px;
+  height:200px;
+  margin-top:20px;
+}
+
+#SponsorHolder img{
+  width:200px;
+  height: 200px;
+}
+
+#ECULogo{
+  Margin-right: 20px;
+}
+
+#JHRLogo{
+  Margin-left: 20px;
+}
+
+.CenterTextHolder{
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 25px;
+  border-top: 2px solid #FED766;
+}
+
+.Main-SubSection{
+  text-align: center;
+  height:400px;
+  border-top:10px;
+  color: #6D466B;
+  font-family: 'Comfortaa', cursive;
+}
+
+.Main-SubSection > h1{
+  display: inline-block;
+  margin-top:50px;
+  font-size: 80px;
+  color: #6D466B;
+  font-family: 'Comfortaa', cursive;
+}
+
+.Main-SubSection > h2{
+  display: inline-block;
+}
+
+.Main-SubSection > h3{
+  display: inline-block;
+}
+
+.Main-SubSection > p{
+  display: inline-block;
+}
+
+#SubSectionTwo{
+  height:450px;
+}
+
+#SubSectionThree{
+  height:500px;
+}
+
+#ButtonContainer{
+  text-align:center;
+}
+
+#SignUpButton{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50%;
+  font-style: bold;
+  background-color: #6D466B;
+  color: #FED766;
+  font-style: none;
+  text-decoration: none;
+}
+
+#SignUpButton:hover{
+  background-color: #9370DB;
+}
+
+#SubSectionThree p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#SubSectionThree h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#SubSectionFour{
+  height: 500px;
+}
+
+.InsetSmallText{
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+#SubSectionFive{
+  height: 1000px;
+}
+
+#OrganizersContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.OrganizerContainer img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+.OrganizerContainer{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#SubSectionSix{
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.EmailPar{
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+.NamePar{
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 1150){
+  .OrganizerContainer{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 1090px){
+  .InsetSmallText{
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .OrganizerContainer{
+    padding-left:50px;
+    padding-right:50px;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .Main-SubSection > h1 {
+    font-size: 55px;
+  }
+  .CenterTextHolder{
+    font-size: 20px;
+  }
+
+  .InsetSmallText{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  #SubSectionThree{
+    height: 400px;
+  }
+
+  #SubSectionFour{
+    height: 400px;
+  }
+
+  #SubSectionFive{
+    height: 900px;
+  }
+
+  #SubSectionSix{
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #OrganizersContainer{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .CenterTextHolder{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .OrganizerContainer{
+    padding-right:20px;
+    padding-left:20px;
+  }
+
+  .OrganizerContainer img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .Main-SubSection > h1 {
+    font-size: 40px;
+  }
+  .CenterTextHolder{
+    font-size: 15px;
+  }
+
+  #MainLogo{
+    width: 150px;
+    height: 150px;
+  }
+
+  #SponsorHolder img{
+    width: 150px;
+    height: 150px;
+  }
+
+  #SubSectionOne{
+    height: 300px;
+  }
+
+  #SubSectionTwo{
+    height: 300px;
+  }
+
+  #SubSectionThree{
+    height: 300px;
+  }
+
+  #SubSectionFour{
+    height: 300px;
+  }
+
+  #SubSectionFive{
+    height: 550px;
+  }
+
+  #SubSectionSix{
+    height: 300px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 435px){
+  .Main-SubSection > h1 {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  .OrganizerContainer{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .OrganizerContainer img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .InsetSmallText{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #SponsorHolder img{
+    width: 100px;
+    height: 100px;
+  }
+
+  #MainLogo{
+    width: 100px;
+    height: 100px;
+  }
+
+  #SubSectionOne{
+    height: 240px;
+  }
+
+  #SubSectionTwo{
+    height: 250px;
+  }
+
+  #SubSectionThree{
+    height: 250px;
+  }
+
+  #SubSectionFour{
+    height: 250px;
+  }
+
+  #SubSectionFive{
+    height: 450px;
+  }
+
+  #SubSectionSix{
+    height: 250px;
+  }
+
+  .CenterTextHolder{
+    font-size: 12.5px;
+  }
+
+  #PittHacksHeader{
+    margin-top:50px;
+  }
+}
